@@ -16,4 +16,3 @@ text = f"{random_quote['text']} \nAuthor: {random_quote['author']}"
 
 pb = Pushbullet(token)
 push = pb.push_note('Quote of the day', text)
-
